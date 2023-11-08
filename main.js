@@ -15,3 +15,4 @@ person.cross("yellow", 2);
 person.cross("blue", 12);
 
 person.printPossibilities();
+s
