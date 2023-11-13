@@ -1,4 +1,4 @@
-import { mappingCrossed } from "./constants.js";
+import { mappingCrossed } from "./constants.mjs";
 
 class ColorLine {
   constructor(color, isAscending = true) {

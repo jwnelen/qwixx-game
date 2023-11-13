@@ -1,7 +1,7 @@
-import ColorLine from "./scores.js";
-import { RED, YELLOW, GREEN, BLUE } from "./constants.js";
+import ColorLine from "./scores.mjs";
+import { RED, YELLOW, GREEN, BLUE } from "./constants.mjs";
 
-class Person {
+export class Person {
   constructor(name) {
     this.name = name;
     this.penalties = 0;
@@ -49,5 +49,3 @@ class Person {
     }
   }
 }
-
-export default Person;
